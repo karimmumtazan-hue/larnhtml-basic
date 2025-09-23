@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Attributes</title>
+    <style>
+
+        #title {
+             color: indigo;
+        }
+        #box1 {
+            background-color: aqua; 
+            width: 400px; 
+            padding: 20px;
+            margin: 30px;
+        }
+        #box2 {
+            background-color: tomato;
+            width: 400px;
+            padding: 20px;
+            margin: 30px;
+        }
+        /* class ditandai dengan titik ( . ) */
+        /* contoh = */
+        .deskripsi {
+            font-size: 18px;
+            color:rgb(6, 92, 10);
+        }
+        /* mentargetkan langsung ke spesifik */
+        #box2 h1 {
+            color: #fff;
+        }
+        .deskripsi b {
+            font-size: 25px;
+            color: cadetblue;
+        }
+        #box2 a {
+            color: aliceblue;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
+        }
+    </style>
+  </head>
+  <body>
+    <div id="box1">
+      <h1 id="title">Belajar CSS</h1>
+      <p class="deskripsi">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <b>Porro</b> dolores animi quae maxime error
+        pariatur quisquam similique!
+        <u style="color: #fff; background-color: black">Veritatis</u>,
+        voluptatum ipsa molestiae voluptatibus, eligendi nobis fugit, quas
+        voluptatem porro necessitatibus magnam.
+      </p>
+    </div>
+    <div
+      id="box2"
+    >
+      <h1>Kotak Baru</h1>
+      <p class="deskripsi">Ini div bawah</p>
+      <a href="https://google.com" target="_blank">Klik Google ke Tab Baru</a>
+      <h2>tipe list</h2>
+      <!-- ada attribut namanya "type: a, A, i, I" -->
+       <!-- contoh penulisan = <ol type="I"> maka list yang keluar adalah angka romawi bukan angka biasa-->
+
+      <ol>
+        <li>satu</li>
+        <li>dua</li>
+        <li>tiga</li>
+        <li>empat</li>
+      </ol>
+      <!-- attribut type: circle, square, none -->
+        <!-- ol>li*3 = shortcut untuk <ul> atau <ol> -->
+      <ul>
+        <li>stunggal</li>
+        <li>kalih</li>
+        <li>tigo</li>
+        <li>sekawan</li>
+      </ul>
+    </div>
+  </body>
+</html>
+
