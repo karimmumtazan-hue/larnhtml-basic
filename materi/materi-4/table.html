@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 5 TABLE</title>
+    <style>
+        .wow {
+            background-color: rgb(53, 255, 188);
+            color: rgb(225, 23, 23);
+        }
+        .b-aja {
+            background-color: rgb(217, 251, 240);
+        }
+    </style>
+  </head>
+  <body>
+    <h1>HTML 5 TABLE</h1>
+    <hr />
+    <!-- <table> membuat struktur table -->
+    <!-- attribut border : memberi garis tepi di table -->
+    <table border="1" style="width: 15%">
+      <!-- <tr> buat baris baru -->
+      <!-- <td> buat cell/ baris baru -->
+      <!-- tips shortcut : tr>td*3 -->
+      <tr class="wow">
+        <th>no</th>
+        <th>nama</th>
+        <th>Hiburan favorit</th>
+        <th>hobi lain</th>
+      </tr>
+      <tr class="b-aja">
+        <td>1.</td>
+        <td>karim</td>
+        <td>baca buku</td>
+        <td>main hp</td>
+      </tr>
+      <tr class="b-aja">
+        <td>2.</td>
+        <td>bibul</td>
+        <td>maimin peraturan</td>
+        <td>main ML</td>
+      </tr>
+      <tr class="b-aja">
+        <td>3.</td>
+        <td>nadhif</td>
+        <td>jalan sama doi</td>
+        <td>sleep call</td>
+      </tr>
+    </table>
+    <!-- tips shortcut : table>thead+tbody+tfoot -->
+    <table border="5" style="width: 15%">
+      <thead>
+        <tr class="wow">
+          <th>No</th>
+          <th>Tanggal</th>
+          <th>Nama Barang</th>
+          <th>Harga Barang</th>
+        </tr>
+      </thead>
+      <br />
+      <tbody>
+        <tr class="b-aja">
+          <td>1.</td>
+          <td>20/12/2025</td>
+          <td>Nasi Padang Kawan Lamo</td>
+          <td>Rp. 10.000</td>
+        </tr>
+        <tr class="b-aja">
+          <td>2.</td>
+          <td>23/01/2026</td>
+          <td rowspan="2">Es Teh Desa (kampul)</td>
+          <td rowspan="2">Rp. 4.000</td>
+        </tr>
+        <tr class="b-aja">
+          <td>4.</td>
+          <td>25/11/2026</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class="b-aja">
+            <th colspan="3">Total Pengeluaran</th>
+            <td><b>Rp 18.000 -</b></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
