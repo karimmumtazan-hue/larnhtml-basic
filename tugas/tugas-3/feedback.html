@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Umpan Balik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Formulir Umpan Balik</h1>
+            <p>Kritik, Saran, dan Masukan</p>
+        </header>
+
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="biodata.html">Biodata</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="jadwal.html">Jadwal</a>
+            <a href="feedback.html" class="active">Feedback</a>
+        </nav>
+
+        <main>
+            <div class="box">
+                <h2 class="box-title">Formulir Kontak & Saran</h2>
+                <p>Berikan masukan terbaik Anda untuk pengembangan website profil ini. Semua input bersifat wajib kecuali nama.</p>
+                
+                <form action="https://httpbin.org/post" method="POST">
+                    <div class="form-group">
+                        <label for="nama">Nama Anda (Opsional):</label>
+                        <input type="text" id="nama" name="nama" placeholder="Tulis nama Anda">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Anda:</label>
+                        <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rating">Rating Kepuasan Website (Skala 1-10):</label>
+                        <input type="number" id="rating" name="rating" min="1" max="10" placeholder="Masukkan angka 1 hingga 10" required>
+                    </div>
+
+                    <div class="form-group radio-group">
+                        <label>Rekomendasi Website Ini?</label><br>
+                        <input type="radio" id="ya" name="rekomendasi" value="Ya, Sangat" required> <label for="ya">Ya, Sangat</label>
+                        <input type="radio" id="mungkin" name="rekomendasi" value="Mungkin Saja"> <label for="mungkin">Mungkin Saja</label>
+                        <input type="radio" id="tidak" name="rekomendasi" value="Tidak"> <label for="tidak">Tidak</label>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label>Topik yang paling menarik:</label><br>
+                        <input type="checkbox" id="topik1" name="topik_menarik" value="Biodata"> <label for="topik1">Biodata</label>
+                        <input type="checkbox" id="topik2" name="topik_menarik" value="Jadwal"> <label for="topik2">Jadwal</label>
+                        <input type="checkbox" id="topik3" name="topik_menarik" value="Galeri"> <label for="topik3">Galeri</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bidang">Saran Pengembangan di Bidang:</label>
+                        <select id="bidang" name="bidang_pengembangan" required>
+                            <option value="">-- Pilih Bidang --</option>
+                            <option value="desain_ui">Desain Tampilan (UI)</option>
+                            <option value="konten">Konten & Informasi</option>
+                            <option value="interaktivitas">Interaktivitas</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="pesan">Pesan/Saran Lengkap:</label>
+                        <textarea id="pesan" name="pesan_lengkap" placeholder="Tulis pesan dan saran Anda secara detail di sini..." required></textarea>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="submit">Kirim Feedback</button>
+                        <button type="reset">Atur Ulang</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <div class="footer">
+            <p>
+                &copy; 2025 Karim Sajid Mumtazan | kontak: karimmumtazan@gmail.com
+            </p>
+        </div>
+    </div>
+</body>
+</html>
