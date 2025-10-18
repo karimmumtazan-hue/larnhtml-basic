@@ -1,0 +1,91 @@
+/* load local font */
+@font-face {
+    font-family: "Hoshiko satsuki";
+    src: url(font/Hoshiko\ Satsuki.ttf);
+}
+
+.text-tengah {
+    text-align: center;
+}
+
+.text-kiri {
+    text-align: left;
+}
+
+.text-kanan {
+    text-align: right;
+}
+
+.text-rata {
+    text-align: justify;
+}
+
+.menyala {
+    /* ukuran font */
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+.gelap {
+    color: darkcyan;
+}
+
+.button-save {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 6px 10px;
+}
+
+.button-save:hover {
+    text-decoration: underline;
+    background-color: aqua;
+    color: black;
+}
+
+b {
+    color: aqua;
+}
+
+.coret {
+    text-decoration: line-through;
+}
+/* atur tinggi text */
+.text-rendah {
+    line-height: 0.8;
+    background-color: chartreuse;
+    padding: 4px;
+    color: red;
+} 
+
+.text-tinggi {
+    line-height: 1.5;
+    background-color: chartreuse;
+    padding: 4px;
+    color: red;
+}
+
+.text-rapat {
+    letter-spacing: 0.1;
+    background-color: darkcyan;
+    padding: 4px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-longgar {
+    letter-spacing: 5px;
+    background-color: darkcyan;
+    padding: 4px;
+    color: white;
+    font-family: fantasy;
+}
+
+.text-padat {
+    word-spacing: -5px;
+    background-color: darkcyan;
+    padding: 4px;
+    color: white;
+    font-family: "Hoshiko satsuki";
+}

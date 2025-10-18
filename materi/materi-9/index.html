@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 box model & position</title>
+    <!-- pico css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CSS3 box model & position</h1>
+      <hr />
+      <h2>Bagian 1: Box Model</h2>
+      <!-- grid area -->
+      <div class="grid">
+        <!-- card box a -->
+        <div class="card">
+          <div class="area" id="box-a">
+            <h3>Box A</h3>
+            <p>konten - original</p>
+          </div>
+          <!-- end card box a -->
+        </div>
+        <!-- card box b -->
+        <div class="card">
+          <div class="area" id="box-b">
+            <h3>Box B</h3>
+            <p>konten - padding</p>
+          </div>
+        </div>
+        <!-- end card box b -->
+        <!-- card box c -->
+        <div class="card">
+          <div class="area" id="box-c">
+            <h3>Box C</h3>
+            <p>konten + padding + border</p>
+          </div>
+        </div>
+        <!-- end card box c -->
+        <!-- card box c -->
+        <div class="card">
+          <div class="area" id="box-d">
+            <h3>Box D</h3>
+            <p>konten + padding + border + margin</p>
+          </div>
+        </div>
+        <!-- end card box c -->
+      </div>
+      <!-- end grid area -->
+      <hr />
+      <h2>Bagian 2: Position</h2>
+      <!-- grid area -->
+      <div class="grid">
+        <div class="card">
+          <div class="area" id="box-static">
+            <h3>Box static</h3>
+            <p>(default)</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="area" id="box-relative">
+            <h3>Box relative</h3>
+            <p>(bebas di geser)</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="area" id="box-absolute">
+            <h3>Box absolute</h3>
+            <p>(bebas di geser di area ber-induk)</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="area" id="box-fixed">
+            <h3>Box fixed</h3>
+            <p>(bebas di geser)</p>
+          </div>
+        </div>
+      </div>
+      <!-- end grid area -->
+    </div>
+  </body>
+</html>

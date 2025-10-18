@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Bismillah Script;
+    src: url(font/Bismillah\ Script.ttf);
+}
+
+@font-face {
+  font-family: fontjepang;
+  src: url(font/Hoshiko\ Satsuki.ttf);
+}
+
+@font-face {
+  font-family: fontmanga;
+  src: url(font/Manga\ Style.ttf);
+}
+
+@font-face {
+  font-family: harryp;
+  src: url(font/HARRYP.TTF);
+}
+
+@font-face {
+  font-family: jepanglatin;
+  src: url(font/jepanglatin.ttf);
+}
+
+@font-face {
+  font-family: gelatik;
+  src: url(font/Midnight\ Gelactic.ttf);
+}
+
+@font-face {
+  font-family: retrobritish;
+  src: url(font/RetroBritish.ttf);
+}
+
+/* Reset dasar */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #283445;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+header h1 {
+  color: #2563eb;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #9aa1b0;
+  margin-top: 0.5rem;
+}
+
+/* Artikel */
+article {
+  background: #303a30;
+  padding: 2rem;
+  margin: 1.5rem auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  width: 85%;
+}
+
+article h2 {
+  color: #008a63;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+article p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.highlight {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* Blockquote */
+blockquote {
+  font-style: italic;
+  background-color: #283445;
+  color: #296cff;
+  border-left: 5px solid #2e7bf8;
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
+  width: 80%;
+  border-radius: 5px;
+}
+
+/* Note box */
+.note {
+  background-color: #433535;
+  color: #b91c1c;
+  border-left: 5px solid #ef4444;
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
+  width: 80%;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+  margin: 2rem 3rem;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.signature {
+  font-family: 'Bismillah Script', cursive;
+  font-size: 30px;
+  color: #b91c1c;
+  text-align: right;
+  margin-top: -0.5rem;
+}
+.font {
+  background-color: #3a3256;
+  border-left: 5px solid #6144ef;
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
+  width: 80%;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  max-width: 750px;
+}
+.font h2 {
+  color: #6344ff;
+  text-align: center;
+  font-size: 40px;
+}
+.font p {
+  color: rgb(102, 75, 254);
+  font-size: 30px;
+}
+.font hr {
+  border-top: 1px solid #6144ef;
+}
+#bismillah {
+  font-family: "Bismillah Script";
+  font-size: 50px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+#fontmanga {
+  font-family: "fontmanga";
+  font-size: 17px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+#fontjepang {
+  font-family: "fontjepang";
+  font-size: 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+#harryp {
+  font-family: "harryp";
+  font-size: 58px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#jepanglatin {
+  font-family: "jepanglatin";
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+#gelatik {
+  font-family: "gelatik";
+  font-size: 28px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+#retrobritish {
+  font-family: "retrobritish";
+  font-size: 30px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}

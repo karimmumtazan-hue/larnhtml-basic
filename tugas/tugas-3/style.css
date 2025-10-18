@@ -90,6 +90,7 @@ img {
     width: 30%;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .profile-pic {
     width: 150px;
@@ -120,6 +121,7 @@ img {
     transition: transform 0.2s;
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .gallery-item img:hover {
