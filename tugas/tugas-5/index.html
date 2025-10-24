@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Components Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Alert Info -->
+  <div class="alert">
+    <p>ℹ️ Info: Pastikan data Anda sudah lengkap sebelum dikirim.</p>
+    <button class="close" onclick="this.parentElement.style.display='none'">×</button>
+  </div>
+
+  <!-- Profile Card -->
+  <div class="profile-card">
+    <div class="avatar">
+      <img src="assets/user.jpeg" alt="User Photo" />
+      <span class="badge">Active</span>
+    </div>
+    <h3>Karim Sajid</h3>
+    <p>Insyaallah jadi kayak avatarnya</p>
+  </div>
+
+  <!-- Pricing Card -->
+  <div class="pricing">
+    <div class="plan highlight">
+      <h3>Paket Basic</h3>
+      <p class="price">Rp50.000</p>
+      <ul>
+        <li>1 Project</li>
+        <li>Community Support</li>
+      </ul>
+      <button>Pilih Paket</button>
+    </div>
+    <div class="plan highlight">
+      <h3>Paket Pro</h3>
+      <p class="price">Rp150.000</p>
+      <ul>
+        <li>5 Projects</li>
+        <li>Priority Support</li>
+      </ul>
+      <button>Pilih Paket</button>
+    </div>
+    <div class="plan highlight">
+      <h3>Paket Enterprise</h3>
+      <p class="price">Rp300.000</p>
+      <ul>
+        <li>Unlimited Projects</li>
+        <li>Dedicated Support</li>
+      </ul>
+      <button>Pilih Paket</button>
+    </div>
+  </div>
+</body>
+</html>

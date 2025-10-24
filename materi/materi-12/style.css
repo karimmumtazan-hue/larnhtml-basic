@@ -1,0 +1,35 @@
+header {
+  background: rgb(52, 52, 52);
+  text-align: center;
+}
+nav {
+  background: rgb(35, 35, 35);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul {
+  gap: 13px;
+}
+nav li a {
+  color: rgb(255, 255, 255);
+  background: rgb(121, 121, 121);
+}
+@media screen and (min-width: 768px) {
+  header {
+    background-color: rgb(15, 0, 54);
+  }
+  nav li a {
+    background: rgb(42, 5, 203);
+  }
+}
+@media screen and (min-width: 768px) and
+(max-width: 1023px) {
+  header {
+    background-color: rgb(56, 0, 0);
+  }
+  nav li a {
+    background: rgb(255, 0, 0);
+  }
+}

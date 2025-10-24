@@ -1,0 +1,35 @@
+.card {
+  background: #2b2a2a;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #707070;
+  border-radius: 6px;
+}
+.flex-area {
+  display: flex;
+  /* atur posisi items secara horizontal */
+  justify-content: center;
+  /* gap => jark antar items(berlaku di flexbox) */
+  gap: 12px;
+  align-items: center;
+}
+.border-blue  {
+  border-color: rgb(42, 14, 255);
+  width: 220px;
+  height: 220px;
+}
+/* kalo mau buat tugas */
+/* .border-blue:hover  {
+  border-color: rgb(42, 14, 255);
+  width: 205px;
+  height: 205px;
+} */
+.alert {
+  width: 800px;
+  height: 100px;
+  background: #5f14ff;
+  justify-content: space-between;
+}

@@ -1,0 +1,53 @@
+.card {
+  background: #2b2a2a;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 250px;
+  width: 250px;
+  border: 2px dashed #707070;
+  border-radius: 6px;
+}
+.area {
+  width: 100px;
+  height: 100px;
+  place-content: center;
+  background: #2706a8;
+  margin-bottom: 6px;
+}
+
+.area h3,
+.area p {
+  margin: 0 auto;
+}
+.area p {
+  font-size: 14px;
+  color: #666;
+}
+.area-ib {
+  display: inline-block;
+  background: #950c0c;
+}
+.area-in p {
+  display: inline;
+  background: #047311;
+  padding: 6px;
+  color: red;
+}
+.area-none {
+  display: none;
+  background: gold;
+}
+.card:hover .area-none {
+  display: block;
+}
+.flexbox-area {
+  display: flex;
+  gap: 10px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.flexbox-area .card {
+  width: 150px;
+  height: 150px;
+}
