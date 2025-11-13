@@ -1,0 +1,17 @@
+img {
+  border-radius: 100px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center; /* bikin sejajar vertikal */
+  gap: 10px; /* jarak antara gambar dan teks */
+}
+
+.navbar-brand img {
+  border-radius: 50%; /* opsional: biar foto tetap bulat */
+}
+
+.navbar-brand strong {
+  font-size: 1.3rem; /* atur ukuran font */
+  font-weight: 700;
+}

@@ -1,0 +1,186 @@
+/* ===================== GLOBAL ===================== */
+body {
+  background-image: url('https://i.pinimg.com/736x/6a/1f/b2/6a1fb2440fdb5076818e871bf65e1a12.jpg'); /* ganti dengan nama gambar kamu */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e0ffff;
+  font-family: 'Courier New', monospace;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 100px;
+}
+
+.section-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* ===================== NAVBAR ===================== */
+.cyber-nav {
+  background: rgba(15, 15, 20, 0.6);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(0, 255, 240, 0.2);
+  box-shadow: 0 0 25px rgba(0, 255, 240, 0.1);
+}
+
+.navbar-brand strong {
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.brand-highlight {
+  color: #00fff0;
+  text-shadow: 0 0 10px #00fff0;
+}
+
+.border-glow {
+  border: 2px solid #00fff0;
+  box-shadow: 0 0 10px rgba(0, 255, 240, 0.5);
+}
+
+.nav-link {
+  color: #cfcfcf;
+  font-weight: 600;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #00fff0;
+  text-shadow: 0 0 10px #00fff0;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #00fff0;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ===================== HERO ===================== */
+.hero {
+  min-height: 100vh;
+  color: #e0fffe;
+  padding-top: 120px;
+}
+
+.hero-text {
+  background: rgba(10, 15, 20, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 200, 0.2);
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.glow-primary {
+  color: #00fff0;
+  text-shadow: 0 0 18px #00fff0;
+}
+
+.glow-secondary {
+  color: #00e5a8;
+  text-shadow: 0 0 10px #00e5a8;
+}
+
+.glow-accent {
+  color: #00ffae;
+  text-shadow: 0 0 10px #00ffae;
+}
+
+.hero-img {
+  border-radius: 50%;
+  border: 3px solid #00fff0;
+  width: 400px;
+  height: 400px;
+}
+
+/* Buttons */
+.btn-cyber {
+  background: linear-gradient(90deg, #00fff0, #00e5a8);
+  border: none;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 0 15px rgba(0, 255, 240, 0.5);
+}
+
+.btn-outline-cyber {
+  border: 2px solid #00fff0;
+  color: #00fff0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* ===================== ABOUT ===================== */
+.about {
+  background: rgba(15, 25, 35, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.about-box {
+  max-width: 700px;
+  background: rgba(10, 20, 30, 0.3);
+  border: 1px solid rgba(0, 255, 240, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 255, 240, 0.1);
+}
+
+/* ===================== SKILLS ===================== */
+.skills .progress {
+  height: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+  margin-bottom: 25px;
+}
+
+.cyber-bar {
+  background: linear-gradient(90deg, #00fff0, #00e5a8);
+  box-shadow: 0 0 15px #00fff0;
+}
+
+/* ===================== WORKS ===================== */
+.works {
+  background: rgba(10, 15, 20, 0.5);
+}
+
+.glass-card {
+  background: rgba(20, 25, 30, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 255, 240, 0.2);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 255, 240, 0.5);
+}
+
+/* ===================== CONTACT ===================== */
+.contact-box {
+  max-width: 600px;
+  background: rgba(10, 15, 20, 0.5);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 240, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 240, 0.1);
+}
+
+footer {
+  background: rgba(5, 10, 15, 0.5);
+  border-top: 1px solid rgba(0, 255, 240, 0.2);
+}
